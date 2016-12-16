@@ -40,3 +40,4 @@ cmake-build-debug/*
 dos_cp
 dos_ls
 scandisk
+dos_scandisk
