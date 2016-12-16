@@ -31,3 +31,12 @@
 # Debug files
 *.dSYM/
 *.su
+
+# IDEA
+.idea/*
+cmake-build-debug/*
+
+# Output
+dos_cp
+dos_ls
+scandisk
