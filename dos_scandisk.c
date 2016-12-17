@@ -236,7 +236,7 @@ int main(int argc, char **argv) {
         append_de(newde, image_buf, bpb);  // Append new direntry to root
     }
 
-    // For each file, check if the length in the directory entry is inconsistent with their length in the FAT
+    // For each file, check if its size in the directory entry is inconsistent with its size in the FAT (no. of clusters)
     // If they are inconsistent, print information about the file and free clusters beyond the end of file in the direntry
     for(i=0; i < MAX_NO_FILES; i++) {
         if(!files[i].size)  // Empty (size = 0)
